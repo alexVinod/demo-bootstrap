@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portal</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+	<div class="">
+		<div>
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			  <a class="navbar-brand" href="#">Navbar</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+			    <ul class="navbar-nav">
+			      <li class="nav-item">
+			        <a class="nav-link" href="home.html" target="render">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="about.html" target="render">AboutMe</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">College</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">DepartmentDetails</a>
+			      </li>    
+			    </ul>
+			  </div>  
+			</nav>
+		</div>
+		<div id="main" class="row p-2">
+			<div id="sidebar" class="col-sm-3">
+				<ul class="list-group">
+				    <li class="list-group-item">
+				    	<a href="marksList.html" target="render">MarksList</a>	
+				    </li>
+				    <li class="list-group-item">
+				    	<a href="#">Events</a>
+				    </li>	
+				</ul>
+			</div>
+			<div id="content" class="col-sm-9">
+				<iframe src="home.html" class="mainIframe" name="render" frameborder="0"></iframe>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
